@@ -1,0 +1,11 @@
+nohup: ignoring input
+🚀 ShadowCore Real Proxy - Port 8080
+   Connected to real engine: localhost:9090
+   Available endpoints:
+   - GET  /health
+   - GET  /threat/analyze?ip={target}
+   - GET  /api/threat/intelligence
+ * Serving Flask app 'real_proxy'
+ * Debug mode: off
+Address already in use
+Port 8080 is in use by another program. Either identify and stop that program, or start the server with a different port.

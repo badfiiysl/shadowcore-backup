@@ -1,0 +1,23 @@
+{
+  "ioc": "1.1.1.1",
+  "timestamp": "2026-01-12T19:42:50.390223",
+  "processing_time": 0.0,
+  "threat_assessment": {
+    "level": "low",
+    "confidence": 0.1,
+    "summary": "Unknown public IP address"
+  },
+  "intelligence_sources": {
+    "osint_feeds": false,
+    "heuristic_analysis": false,
+    "knowledge_graph": false,
+    "memory_cache": false
+  },
+  "actions_recommended": [
+    "Add to observables",
+    "Monitor periodically"
+  ],
+  "correlation_score": 0.4,
+  "report_id": "CLEAN-1768243370-3205",
+  "threat_data": {}
+}

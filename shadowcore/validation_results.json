@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-01-12T12:49:02.507001",
+  "components": {
+    "Redis Cache": {
+      "status": "PASS",
+      "elapsed": 0.0008366107940673828,
+      "details": "Connected, 22 keys, test value: 2026-01-12T12:49:02.507675",
+      "error": ""
+    },
+    "Neo4j Knowledge Graph": {
+      "status": "PASS",
+      "elapsed": 1.253661870956421,
+      "details": "30 nodes,  5 entity types in knowledge graph",
+      "error": ""
+    },
+    "Threat Intelligence Cache": {
+      "status": "PASS",
+      "elapsed": 0.06171536445617676,
+      "details": "49088 threats, 24006 malware-specific, sources: ['urlhaus', 'feodotracker', 'blocklist_de']",
+      "error": ""
+    },
+    "Threat Detection Accuracy": {
+      "status": "PASS",
+      "elapsed": 0.33953070640563965,
+      "details": "Accuracy: 100.0% (4/4) - \u2713 162.243.103.246: high (95%) | \u2713 137.184.9.29: high (95%) | \u2713 8.8.8.8: low (10%) | \u2713 evil-traffic.com: medium (60%)",
+      "error": ""
+    },
+    "Main Orchestrator": {
+      "status": "PASS",
+      "elapsed": 0.08006978034973145,
+      "details": "Analysis complete: Emotet C2: \u2717 expected HIGH, got high | Google DNS: \u2717 expected LOW, got low | Suspicious domain: \u2717 expected MEDIUM, got medium",
+      "error": ""
+    },
+    "ShadowSearch": {
+      "status": "FAIL",
+      "elapsed": 0.0013420581817626953,
+      "details": "",
+      "error": "HTTPConnectionPool(host='localhost', port=8085): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2952ed48b0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    "API Endpoints": {
+      "status": "WARNING",
+      "elapsed": 0.0882728099822998,
+      "details": "API Status: Dashboard: \u2713 | Neo4j Browser: \u2713 | Grafana: \u2713 | ShadowSearch (SearX): \u2717 (unreachable)",
+      "error": ""
+    },
+    "Service Availability": {
+      "status": "WARNING",
+      "elapsed": 0.0005629062652587891,
+      "details": "Services: 14/15 running. All critical services operational.",
+      "error": ""
+    },
+    "Intelligence Pipeline": {
+      "status": "PASS",
+      "elapsed": 0.0009150505065917969,
+      "details": "Pipeline active: 61 reports, latest: 5/5 threats detected",
+      "error": ""
+    },
+    "System Performance": {
+      "status": "PASS",
+      "elapsed": 0.0014314651489257812,
+      "details": "Memory: 40.5% | Load: 2.25 | Disk: 32.4%",
+      "error": ""
+    }
+  },
+  "performance": {
+    "memory": "40.5% used (76582MB free)",
+    "load": "2.25, 2.28, 2.39",
+    "disk": "32.4% used (313.1GB free)",
+    "uptime": "up 1 week, 3 days, 18 hours, 18 minutes"
+  },
+  "threat_intelligence": {
+    "accuracy": 100.0,
+    "test_results": [
+      "\u2713 162.243.103.246: high (95%)",
+      "\u2713 137.184.9.29: high (95%)",
+      "\u2713 8.8.8.8: low (10%)",
+      "\u2713 evil-traffic.com: medium (60%)"
+    ]
+  },
+  "overall_score": 70.0
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "task_1768183094_0427",
+    "ioc": "23.95.44.80",
+    "type": "ip",
+    "priority": "high",
+    "requester": "automation",
+    "scheduled_at": "2026-01-12T02:58:14.803665",
+    "status": "queued",
+    "assigned_workers": [
+      "geo_lookup",
+      "reputation_check",
+      "port_scan"
+    ],
+    "acl": [
+      "read",
+      "analyze",
+      "schedule"
+    ]
+  }
+]

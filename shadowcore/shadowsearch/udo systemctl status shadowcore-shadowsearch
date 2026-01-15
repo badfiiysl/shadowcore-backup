@@ -1,0 +1,6 @@
+○ shadowbrain.service - ShadowBrain AI Service (Enhanced)
+     Loaded: loaded (/etc/systemd/system/shadowbrain.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) (Result: resources) since Fri 2026-01-09 21:03:29 CET; 1min 53s ago
+        CPU: 0
+
+Jan 09 21:03:29 Ubuntu-2204-jammy-amd64-base systemd[1]: Stopped ShadowBrain AI Service (Enhanced).

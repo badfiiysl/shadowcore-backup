@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-01-12T03:03:36.093566",
+  "metrics": {
+    "total_threats": 5,
+    "active_analyses": 0,
+    "correlations_found": 0,
+    "system_health": "excellent"
+  },
+  "recent_activity": [
+    {
+      "ioc": "23.95.44.80",
+      "threat_level": "medium",
+      "timestamp": "2026-01-12T02:58:14.619387",
+      "report_id": "REPORT-1768183094-6998"
+    },
+    {
+      "ioc": "evil-traffic.com",
+      "threat_level": "medium",
+      "timestamp": "2026-01-12T02:58:14.637735",
+      "report_id": "REPORT-1768183094-0006"
+    },
+    {
+      "ioc": "a1b2c3d4e5f6789012345678901234567",
+      "threat_level": "medium",
+      "timestamp": "2026-01-12T02:58:14.662371",
+      "report_id": "REPORT-1768183094-1787"
+    },
+    {
+      "ioc": "https://malicious.site/payload",
+      "threat_level": "medium",
+      "timestamp": "2026-01-12T02:58:14.684212",
+      "report_id": "REPORT-1768183094-8328"
+    }
+  ],
+  "threat_alerts": []
+}

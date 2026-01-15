@@ -1,0 +1,29 @@
+{
+  "ioc": "evil-traffic.com",
+  "timestamp": "2026-01-12T12:49:04.237794",
+  "processing_time": 0.0,
+  "threat_assessment": {
+    "level": "medium",
+    "confidence": 0.6,
+    "summary": "Contains malicious keywords"
+  },
+  "intelligence_sources": {
+    "osint_feeds": false,
+    "heuristic_analysis": true,
+    "knowledge_graph": true,
+    "memory_cache": true
+  },
+  "actions_recommended": [
+    "Monitor closely",
+    "Add to watchlist",
+    "Investigate"
+  ],
+  "correlation_score": 0.9,
+  "report_id": "CLEAN-1768218544-0402",
+  "threat_data": {
+    "type": "suspicious",
+    "source": "heuristic",
+    "threat_level": "medium",
+    "reason": "Contains malicious keywords"
+  }
+}

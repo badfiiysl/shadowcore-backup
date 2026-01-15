@@ -1,0 +1,300 @@
+{
+  "timestamp": "2026-01-09T08:57:23.819238",
+  "summary": {
+    "total": 20,
+    "up": 0,
+    "down": 0,
+    "error": 0
+  },
+  "services": [
+    {
+      "service": "auth_api",
+      "port": 8006,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.955543",
+      "status": "sleeping",
+      "response_time": 0.003313,
+      "response": {
+        "status": "healthy",
+        "timestamp": "2026-01-09T08:57:22.957835"
+      },
+      "pid": 353539,
+      "name": "python3",
+      "memory_mb": 47.30078125,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "containerd",
+      "port": 42001,
+      "type": "tcp",
+      "timestamp": "2026-01-09T08:57:23.640588",
+      "status": "sleeping",
+      "response_time": 0.000269,
+      "pid": 1098,
+      "name": "containerd",
+      "memory_mb": 46.1875,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "electron",
+      "port": 8082,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.961929",
+      "status": "sleeping",
+      "response_time": 0.00253,
+      "pid": 1223,
+      "name": "node /root/shad",
+      "memory_mb": 68.25390625,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "grafana",
+      "port": 3000,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.963476",
+      "status": "sleeping",
+      "response_time": 0.002385,
+      "pid": 720816,
+      "name": "grafana",
+      "memory_mb": 245.8046875,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "main_api",
+      "port": 8004,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.955139",
+      "status": "sleeping",
+      "response_time": 0.001483,
+      "response": {
+        "status": "healthy",
+        "service": "Main API",
+        "port": 8004
+      },
+      "pid": 353522,
+      "name": "python3",
+      "memory_mb": 17.484375,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "main_rest",
+      "port": 8000,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.953529",
+      "status": "sleeping",
+      "response_time": 0.00276,
+      "response": {
+        "status": "healthy",
+        "timestamp": "2026-01-09T08:57:22.956194"
+      },
+      "pid": 1266,
+      "name": "python",
+      "memory_mb": 46.890625,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "metrics",
+      "port": 9100,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.962111",
+      "status": "sleeping",
+      "response_time": 0.002743,
+      "pid": 720801,
+      "name": "node_exporter",
+      "memory_mb": 12.13671875,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "neo4j_bolt",
+      "port": 7687,
+      "type": "tcp",
+      "timestamp": "2026-01-09T08:57:23.639026",
+      "status": "sleeping",
+      "response_time": 0.000807,
+      "pid": 2660,
+      "name": "java",
+      "memory_mb": 626.76171875,
+      "cpu_percent": 10.0
+    },
+    {
+      "service": "neo4j_http",
+      "port": 7474,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:23.636633",
+      "status": "sleeping",
+      "response_time": 0.008156,
+      "response": {
+        "bolt_routing": "neo4j://127.0.0.1:7687",
+        "query": "http://127.0.0.1:7474/db/{databaseName}/query/v2",
+        "transaction": "http://127.0.0.1:7474/db/{databaseName}/tx",
+        "bolt_direct": "bolt://127.0.0.1:7687",
+        "neo4j_version": "2025.11.2",
+        "neo4j_edition": "community"
+      },
+      "pid": 2660,
+      "name": "java",
+      "memory_mb": 626.76171875,
+      "cpu_percent": 10.0
+    },
+    {
+      "service": "ollama",
+      "port": 11434,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.962795",
+      "status": "sleeping",
+      "response_time": 0.001334,
+      "pid": 1084,
+      "name": "ollama",
+      "memory_mb": 30.171875,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "postgres",
+      "port": 5432,
+      "type": "tcp",
+      "timestamp": "2026-01-09T08:57:23.598989",
+      "status": "sleeping",
+      "response_time": 0.000183,
+      "pid": 1153,
+      "name": "postgres",
+      "memory_mb": 29.40625,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "proxy",
+      "port": 8080,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.956982",
+      "status": "sleeping",
+      "response_time": 0.004316,
+      "response": {
+        "service": "ShadowCore Proxy",
+        "status": "healthy",
+        "timestamp": "2026-01-09T08:57:22.959923",
+        "version": "1.0.0"
+      },
+      "pid": 61335,
+      "name": "python3",
+      "memory_mb": 29.2265625,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "redis",
+      "port": 6379,
+      "type": "tcp",
+      "timestamp": "2026-01-09T08:57:23.636105",
+      "status": "sleeping",
+      "response_time": 0.002245,
+      "pid": 1088,
+      "name": "redis-server",
+      "memory_mb": 10.85546875,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "rpc",
+      "port": 4242,
+      "type": "tcp",
+      "timestamp": "2026-01-09T08:57:22.957961",
+      "status": "sleeping",
+      "response_time": 0.003175,
+      "pid": 1268,
+      "name": "python",
+      "memory_mb": 21.5859375,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "shadowbrain",
+      "port": 8001,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.960344",
+      "status": "sleeping",
+      "response_time": 0.002402,
+      "pid": 349472,
+      "name": "node",
+      "memory_mb": 61.3984375,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "shadowsearch",
+      "port": 8002,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.959183",
+      "status": "sleeping",
+      "response_time": 0.00364,
+      "response": {
+        "error": "Not found",
+        "url": "/",
+        "service": "ShadowSearch"
+      },
+      "pid": 34035,
+      "name": "node",
+      "memory_mb": 62.4296875,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "threat_api",
+      "port": 8003,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.954531",
+      "status": "sleeping",
+      "response_time": 0.00192,
+      "response": {
+        "status": "healthy",
+        "service": "Threat API",
+        "port": 8003
+      },
+      "pid": 1091,
+      "name": "python3",
+      "memory_mb": 17.16796875,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "threat_insight",
+      "port": 9090,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.958534",
+      "status": "sleeping",
+      "response_time": 0.002619,
+      "response": {
+        "endpoints": {
+          "/api/analyze/domain/<domain>": "GET - Analyze domain",
+          "/api/analyze/ip/<ip>": "GET - Analyze IP address",
+          "/api/batch": "POST - Batch analysis",
+          "/api/health": "GET - Service health check",
+          "/api/stats": "GET - System statistics"
+        },
+        "service": "ThreatInsight API",
+        "status": "online",
+        "version": "2.0.0"
+      },
+      "pid": 1224,
+      "name": "python3",
+      "memory_mb": 49.921875,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "ui_dashboard",
+      "port": 8020,
+      "type": "http",
+      "timestamp": "2026-01-09T08:57:22.958030",
+      "status": "sleeping",
+      "response_time": 0.004475,
+      "pid": 776327,
+      "name": "python3",
+      "memory_mb": 29.0234375,
+      "cpu_percent": 0.0
+    },
+    {
+      "service": "websocket",
+      "port": 8083,
+      "type": "tcp",
+      "timestamp": "2026-01-09T08:57:22.957783",
+      "status": "sleeping",
+      "response_time": 0.001118,
+      "pid": 1093,
+      "name": "python3",
+      "memory_mb": 22.5234375,
+      "cpu_percent": 0.0
+    }
+  ]
+}

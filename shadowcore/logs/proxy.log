@@ -1,0 +1,36 @@
+🚀 Starting ShadowCore Proxy on port 8080
+   Endpoints available:
+   - GET /health
+   - GET /api/health
+   - GET /threat/intelligence
+   - GET /threat/detection
+   - GET /threat/analyze?ip={target}
+   - GET /api/threat/intelligence
+ * Serving Flask app 'real_proxy'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://65.109.114.23:8080
+Press CTRL+C to quit
+127.0.0.1 - - [09/Jan/2026 09:50:21] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 09:50:32] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 16:02:00] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 16:06:01] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 20:47:37] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 20:50:22] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 20:53:49] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 20:53:49] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2026 20:53:49] "GET /api HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 20:56:07] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2026 21:42:12] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 21:45:29] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 21:47:33] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 21:47:53] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 21:58:05] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 21:58:25] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 21:59:34] "HEAD / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2026 21:59:34] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2026 21:59:34] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jan/2026 10:55:45] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jan/2026 10:55:57] "GET /health HTTP/1.1" 200 -

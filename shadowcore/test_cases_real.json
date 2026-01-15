@@ -1,0 +1,19 @@
+{
+  "KNOWN_MALICIOUS": [
+    "1.183.3.58",
+    "1.196.177.49",
+    "1.180.62.41",
+    "1.212.225.99",
+    "1.161.39.103"
+  ],
+  "CLEAN_IPS": [
+    "8.8.8.8",
+    "1.1.1.1",
+    "9.9.9.9"
+  ],
+  "SUSPICIOUS_DOMAINS": [
+    "evil-traffic.com",
+    "malware-distribution.net",
+    "phishing-site.org"
+  ]
+}

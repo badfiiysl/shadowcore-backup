@@ -1,0 +1,33 @@
+SHADOWCORE VALIDATION SUMMARY
+========================================
+
+Timestamp: 2026-01-12T12:49:02.507001
+Overall Score: 70.0%
+Passed: 7/10
+
+COMPONENT STATUS:
+  Redis Cache: ✅ PASS
+    Details: Connected, 22 keys, test value: 2026-01-12T12:49:02.507675
+  Neo4j Knowledge Graph: ✅ PASS
+    Details: 30 nodes,  5 entity types in knowledge graph
+  Threat Intelligence Cache: ✅ PASS
+    Details: 49088 threats, 24006 malware-specific, sources: ['urlhaus', 'feodotracker', 'blocklist_de']
+  Threat Detection Accuracy: ✅ PASS
+    Details: Accuracy: 100.0% (4/4) - ✓ 162.243.103.246: high (95%) | ✓ 137.184.9.29: high (95%) | ✓ 8.8.8.8: low (10%) | ✓ evil-traffic.com: medium (60%)
+  Main Orchestrator: ✅ PASS
+    Details: Analysis complete: Emotet C2: ✗ expected HIGH, got high | Google DNS: ✗ expected LOW, got low | Suspicious domain: ✗ expected MEDIUM, got medium
+  ShadowSearch: ❌ FAIL
+  API Endpoints: ❌ FAIL
+    Details: API Status: Dashboard: ✓ | Neo4j Browser: ✓ | Grafana: ✓ | ShadowSearch (SearX): ✗ (unreachable)
+  Service Availability: ❌ FAIL
+    Details: Services: 14/15 running. All critical services operational.
+  Intelligence Pipeline: ✅ PASS
+    Details: Pipeline active: 61 reports, latest: 5/5 threats detected
+  System Performance: ✅ PASS
+    Details: Memory: 40.5% | Load: 2.25 | Disk: 32.4%
+
+PERFORMANCE METRICS:
+  memory: 40.5% used (76582MB free)
+  load: 2.25, 2.28, 2.39
+  disk: 32.4% used (313.1GB free)
+  uptime: up 1 week, 3 days, 18 hours, 18 minutes

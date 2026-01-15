@@ -1,0 +1,32 @@
+{
+  "ioc": "162.243.103.246",
+  "timestamp": "2026-01-12T19:42:50.380844",
+  "processing_time": 0.01,
+  "threat_assessment": {
+    "level": "high",
+    "confidence": 0.95,
+    "summary": "Known Emotet infrastructure"
+  },
+  "intelligence_sources": {
+    "osint_feeds": true,
+    "heuristic_analysis": false,
+    "knowledge_graph": true,
+    "memory_cache": true
+  },
+  "actions_recommended": [
+    "Block immediately",
+    "Investigate endpoints",
+    "Alert SOC",
+    "Check for Emotet indicators"
+  ],
+  "correlation_score": 0.9,
+  "report_id": "CLEAN-1768243370-0977",
+  "threat_data": {
+    "type": "ip",
+    "source": "feodotracker",
+    "threat_level": "high",
+    "timestamp": "2026-01-12T12:52:14.974828",
+    "malware": "Emotet",
+    "port": "8080"
+  }
+}

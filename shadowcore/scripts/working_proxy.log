@@ -1,0 +1,6 @@
+nohup: ignoring input
+🚀 Starting ShadowCore Proxy on port 8080
+ * Serving Flask app 'real_proxy'
+ * Debug mode: off
+Address already in use
+Port 8080 is in use by another program. Either identify and stop that program, or start the server with a different port.

@@ -1,0 +1,29 @@
+{
+  "ioc": "8.8.8.8",
+  "timestamp": "2026-01-12T03:39:42.199585",
+  "processing_time": 0.0,
+  "threat_assessment": {
+    "level": "high",
+    "confidence": 0.95,
+    "summary": "Matched in OSINT feeds"
+  },
+  "intelligence_sources": {
+    "osint_feeds": true,
+    "knowledge_graph": false,
+    "memory_cache": true
+  },
+  "actions_recommended": [
+    "BLOCK immediately",
+    "Investigate endpoints",
+    "Alert SOC",
+    "Update firewall"
+  ],
+  "correlation_score": 0.9,
+  "report_id": "FIXED-1768185582-5297",
+  "feed_data": {
+    "threat_level": "high",
+    "source": "feodotracker",
+    "type": "ip",
+    "timestamp": "2026-01-12T03:33:29.368610"
+  }
+}

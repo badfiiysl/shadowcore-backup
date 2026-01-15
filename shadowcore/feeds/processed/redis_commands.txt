@@ -1,0 +1,100 @@
+HSET threat:feed:"first_seen_utc","dst_ip","dst_port","c2_status","last_online","malware" ioc "first_seen_utc","dst_ip","dst_port","c2_status","last_online","malware" type ip source feodotracker
+EXPIRE threat:feed:"first_seen_utc","dst_ip","dst_port","c2_status","last_online","malware" 604800
+HSET threat:feed:"2022-06-04 21:24:53","162.243.103.246","8080","offline","2026-01-04","Emotet" ioc "2022-06-04 21:24:53","162.243.103.246","8080","offline","2026-01-04","Emotet" type ip source feodotracker
+EXPIRE threat:feed:"2022-06-04 21:24:53","162.243.103.246","8080","offline","2026-01-04","Emotet" 604800
+HSET threat:feed:"2022-06-13 22:31:59","167.86.75.145","443","offline","2026-01-05","Emotet" ioc "2022-06-13 22:31:59","167.86.75.145","443","offline","2026-01-05","Emotet" type ip source feodotracker
+EXPIRE threat:feed:"2022-06-13 22:31:59","167.86.75.145","443","offline","2026-01-05","Emotet" 604800
+HSET threat:feed:"2025-09-13 14:31:12","137.184.9.29","443","offline","2026-01-04","QakBot" ioc "2025-09-13 14:31:12","137.184.9.29","443","offline","2026-01-04","QakBot" type ip source feodotracker
+EXPIRE threat:feed:"2025-09-13 14:31:12","137.184.9.29","443","offline","2026-01-04","QakBot" 604800
+HSET threat:feed:"2025-12-30 13:56:31","50.16.16.211","443","offline","2025-12-31","QakBot" ioc "2025-12-30 13:56:31","50.16.16.211","443","offline","2025-12-31","QakBot" type ip source feodotracker
+EXPIRE threat:feed:"2025-12-30 13:56:31","50.16.16.211","443","offline","2025-12-31","QakBot" 604800
+HSET threat:feed:1.14.12.141 ioc 1.14.12.141 type ip source blocklist_de
+EXPIRE threat:feed:1.14.12.141 604800
+HSET threat:feed:1.145.90.220 ioc 1.145.90.220 type ip source blocklist_de
+EXPIRE threat:feed:1.145.90.220 604800
+HSET threat:feed:1.159.145.162 ioc 1.159.145.162 type ip source blocklist_de
+EXPIRE threat:feed:1.159.145.162 604800
+HSET threat:feed:1.161.39.103 ioc 1.161.39.103 type ip source blocklist_de
+EXPIRE threat:feed:1.161.39.103 604800
+HSET threat:feed:1.180.62.41 ioc 1.180.62.41 type ip source blocklist_de
+EXPIRE threat:feed:1.180.62.41 604800
+HSET threat:feed:1.183.3.58 ioc 1.183.3.58 type ip source blocklist_de
+EXPIRE threat:feed:1.183.3.58 604800
+HSET threat:feed:1.193.163.2 ioc 1.193.163.2 type ip source blocklist_de
+EXPIRE threat:feed:1.193.163.2 604800
+HSET threat:feed:1.194.236.11 ioc 1.194.236.11 type ip source blocklist_de
+EXPIRE threat:feed:1.194.236.11 604800
+HSET threat:feed:1.196.177.49 ioc 1.196.177.49 type ip source blocklist_de
+EXPIRE threat:feed:1.196.177.49 604800
+HSET threat:feed:1.197.102.62 ioc 1.197.102.62 type ip source blocklist_de
+EXPIRE threat:feed:1.197.102.62 604800
+HSET threat:feed:1.203.97.79 ioc 1.203.97.79 type ip source blocklist_de
+EXPIRE threat:feed:1.203.97.79 604800
+HSET threat:feed:1.212.225.99 ioc 1.212.225.99 type ip source blocklist_de
+EXPIRE threat:feed:1.212.225.99 604800
+HSET threat:feed:1.214.197.163 ioc 1.214.197.163 type ip source blocklist_de
+EXPIRE threat:feed:1.214.197.163 604800
+HSET threat:feed:1.214.42.172 ioc 1.214.42.172 type ip source blocklist_de
+EXPIRE threat:feed:1.214.42.172 604800
+HSET threat:feed:1.227.228.131 ioc 1.227.228.131 type ip source blocklist_de
+EXPIRE threat:feed:1.227.228.131 604800
+HSET threat:feed:1.229.172.131 ioc 1.229.172.131 type ip source blocklist_de
+EXPIRE threat:feed:1.229.172.131 604800
+HSET threat:feed:1.234.70.54 ioc 1.234.70.54 type ip source blocklist_de
+EXPIRE threat:feed:1.234.70.54 604800
+HSET threat:feed:1.234.83.55 ioc 1.234.83.55 type ip source blocklist_de
+EXPIRE threat:feed:1.234.83.55 604800
+HSET threat:feed:1.235.192.130 ioc 1.235.192.130 type ip source blocklist_de
+EXPIRE threat:feed:1.235.192.130 604800
+HSET threat:feed:1.235.192.131 ioc 1.235.192.131 type ip source blocklist_de
+EXPIRE threat:feed:1.235.192.131 604800
+HSET threat:feed:1.237.155.150 ioc 1.237.155.150 type ip source blocklist_de
+EXPIRE threat:feed:1.237.155.150 604800
+HSET threat:feed:1.238.106.229 ioc 1.238.106.229 type ip source blocklist_de
+EXPIRE threat:feed:1.238.106.229 604800
+HSET threat:feed:1.24.210.27 ioc 1.24.210.27 type ip source blocklist_de
+EXPIRE threat:feed:1.24.210.27 604800
+HSET threat:feed:1.241.64.237 ioc 1.241.64.237 type ip source blocklist_de
+EXPIRE threat:feed:1.241.64.237 604800
+HSET threat:feed:1.244.246.221 ioc 1.244.246.221 type ip source blocklist_de
+EXPIRE threat:feed:1.244.246.221 604800
+HSET threat:feed:1.247.245.61 ioc 1.247.245.61 type ip source blocklist_de
+EXPIRE threat:feed:1.247.245.61 604800
+HSET threat:feed:1.248.227.206 ioc 1.248.227.206 type ip source blocklist_de
+EXPIRE threat:feed:1.248.227.206 604800
+HSET threat:feed:1.255.226.157 ioc 1.255.226.157 type ip source blocklist_de
+EXPIRE threat:feed:1.255.226.157 604800
+HSET threat:feed:1.27.226.158 ioc 1.27.226.158 type ip source blocklist_de
+EXPIRE threat:feed:1.27.226.158 604800
+HSET threat:feed:1.30.20.238 ioc 1.30.20.238 type ip source blocklist_de
+EXPIRE threat:feed:1.30.20.238 604800
+HSET threat:feed:1.30.20.98 ioc 1.30.20.98 type ip source blocklist_de
+EXPIRE threat:feed:1.30.20.98 604800
+HSET threat:feed:1.31.80.222 ioc 1.31.80.222 type ip source blocklist_de
+EXPIRE threat:feed:1.31.80.222 604800
+HSET threat:feed:1.32.41.192 ioc 1.32.41.192 type ip source blocklist_de
+EXPIRE threat:feed:1.32.41.192 604800
+HSET threat:feed:1.55.211.146 ioc 1.55.211.146 type ip source blocklist_de
+EXPIRE threat:feed:1.55.211.146 604800
+HSET threat:feed:1.55.33.86 ioc 1.55.33.86 type ip source blocklist_de
+EXPIRE threat:feed:1.55.33.86 604800
+HSET threat:feed:1.62.252.20 ioc 1.62.252.20 type ip source blocklist_de
+EXPIRE threat:feed:1.62.252.20 604800
+HSET threat:feed:1.71.249.167 ioc 1.71.249.167 type ip source blocklist_de
+EXPIRE threat:feed:1.71.249.167 604800
+HSET threat:feed:1.82.135.154 ioc 1.82.135.154 type ip source blocklist_de
+EXPIRE threat:feed:1.82.135.154 604800
+HSET threat:feed:1.82.238.83 ioc 1.82.238.83 type ip source blocklist_de
+EXPIRE threat:feed:1.82.238.83 604800
+HSET threat:feed:1.95.115.183 ioc 1.95.115.183 type ip source blocklist_de
+EXPIRE threat:feed:1.95.115.183 604800
+HSET threat:feed:1.95.124.235 ioc 1.95.124.235 type ip source blocklist_de
+EXPIRE threat:feed:1.95.124.235 604800
+HSET threat:feed:1.95.144.180 ioc 1.95.144.180 type ip source blocklist_de
+EXPIRE threat:feed:1.95.144.180 604800
+HSET threat:feed:1.95.71.101 ioc 1.95.71.101 type ip source blocklist_de
+EXPIRE threat:feed:1.95.71.101 604800
+HSET threat:feed:100.37.16.11 ioc 100.37.16.11 type ip source blocklist_de
+EXPIRE threat:feed:100.37.16.11 604800
+HSET threat:feed:101.126.11.137 ioc 101.126.11.137 type ip source blocklist_de
+EXPIRE threat:feed:101.126.11.137 604800

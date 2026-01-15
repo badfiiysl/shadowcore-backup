@@ -1,0 +1,13 @@
+Requirement already satisfied: uvicorn in /usr/local/lib/python3.10/dist-packages (0.38.0)
+Requirement already satisfied: websockets in /usr/local/lib/python3.10/dist-packages (15.0.1)
+Requirement already satisfied: flask-cors in /root/.local/lib/python3.10/site-packages (6.0.2)
+Requirement already satisfied: click>=7.0 in /usr/local/lib/python3.10/dist-packages (from uvicorn) (8.3.1)
+Requirement already satisfied: h11>=0.8 in /usr/local/lib/python3.10/dist-packages (from uvicorn) (0.16.0)
+Requirement already satisfied: typing-extensions>=4.0 in /usr/local/lib/python3.10/dist-packages (from uvicorn) (4.15.0)
+Requirement already satisfied: flask>=0.9 in /root/.local/lib/python3.10/site-packages (from flask-cors) (3.1.2)
+Requirement already satisfied: Werkzeug>=0.7 in /usr/local/lib/python3.10/dist-packages (from flask-cors) (3.1.4)
+Requirement already satisfied: blinker>=1.9.0 in /root/.local/lib/python3.10/site-packages (from flask>=0.9->flask-cors) (1.9.0)
+Requirement already satisfied: itsdangerous>=2.2.0 in /usr/local/lib/python3.10/dist-packages (from flask>=0.9->flask-cors) (2.2.0)
+Requirement already satisfied: jinja2>=3.1.2 in /usr/local/lib/python3.10/dist-packages (from flask>=0.9->flask-cors) (3.1.6)
+Requirement already satisfied: markupsafe>=2.1.1 in /usr/local/lib/python3.10/dist-packages (from flask>=0.9->flask-cors) (3.0.3)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.

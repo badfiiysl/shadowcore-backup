@@ -1,0 +1,114 @@
+{
+  "timestamp": "2026-01-03T09:10:15+01:00",
+  "tests": {
+    "8005": {
+      "name": "Static Web Server",
+      "result": "FAIL",
+      "type": "core_service"
+    },
+    "8004": {
+      "name": "Main API Gateway",
+      "result": "PASS",
+      "type": "core_service"
+    },
+    "8006": {
+      "name": "Auth API",
+      "result": "PASS",
+      "type": "core_service"
+    },
+    "8001": {
+      "name": "ShadowBrain AI",
+      "result": "PASS",
+      "type": "core_service"
+    },
+    "9090": {
+      "name": "Real Threat Engine",
+      "result": "PASS",
+      "type": "core_service"
+    },
+    "8003": {
+      "name": "Threat Analysis API",
+      "result": "PASS",
+      "type": "core_service"
+    },
+    "8002": {
+      "name": "ShadowSearch",
+      "result": "PASS",
+      "type": "core_service"
+    },
+    "8090": {
+      "name": "Threat Intelligence API",
+      "result": "FAIL",
+      "type": "core_service"
+    },
+    "8010": {
+      "name": "HTMX UI Dashboard",
+      "result": "PASS",
+      "type": "core_service"
+    },
+    "8080": {
+      "name": "Real Threat Proxy",
+      "result": "PASS",
+      "type": "core_service"
+    },
+    "8083": {
+      "name": "WebSocket Server",
+      "result": "FAIL",
+      "type": "core_service"
+    },
+    "8082": {
+      "name": "ThreatInsight Analytics",
+      "result": "PASS",
+      "type": "core_service"
+    },
+    "redis": {
+      "name": "redis",
+      "result": "PASS",
+      "type": "threat_feed"
+    },
+    "threat_aggregator": {
+      "name": "threat_aggregator",
+      "result": "PASS",
+      "type": "threat_feed"
+    },
+    "threat_api": {
+      "name": "threat_api",
+      "result": "PASS",
+      "type": "threat_feed"
+    },
+    "real_engine": {
+      "name": "real_engine",
+      "result": "PASS",
+      "type": "threat_feed"
+    }
+  },
+  "summary": {
+    "total_tests": 25,
+    "passed": 14,
+    "success_rate": 56,
+    "timestamp": "2026-01-03T09:10:21+01:00",
+    "status": "WARNING",
+    "sections": {
+      "core_services": {
+        "tested": 12,
+        "passed": 9
+      },
+      "threat_feeds": {
+        "tested": 4,
+        "passed": 1
+      },
+      "quantum_readiness": {
+        "tested": 3,
+        "passed": 1
+      },
+      "alerting": {
+        "tested": 3,
+        "passed": 2
+      },
+      "performance": {
+        "tested": 3,
+        "passed": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "ioc": "137.184.9.29",
+  "timestamp": "2026-01-12T12:01:28.583711",
+  "processing_time": 0.03,
+  "threat_assessment": {
+    "level": "high",
+    "confidence": 0.95,
+    "summary": "Known QakBot infrastructure"
+  },
+  "intelligence_sources": {
+    "osint_feeds": true,
+    "heuristic_analysis": false,
+    "knowledge_graph": false,
+    "memory_cache": false
+  },
+  "actions_recommended": [
+    "Block immediately",
+    "Investigate endpoints",
+    "Alert SOC",
+    "Check for QakBot indicators"
+  ],
+  "correlation_score": 0.9,
+  "report_id": "CLEAN-1768215688-6483",
+  "threat_data": {
+    "type": "ip",
+    "source": "feodotracker",
+    "threat_level": "high",
+    "timestamp": "2026-01-12T11:52:02.341897",
+    "malware": "QakBot",
+    "port": "443"
+  }
+}

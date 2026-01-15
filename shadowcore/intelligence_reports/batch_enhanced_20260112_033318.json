@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-01-12T03:33:18.904390",
+  "total_iocs": 5,
+  "threats_found": 0,
+  "reports": [
+    {
+      "ioc": "185.220.100.255",
+      "timestamp": "2026-01-12T03:33:18.888023",
+      "processing_time": 0.01,
+      "threat_assessment": {
+        "level": "low",
+        "confidence": 0.3,
+        "summary": "No feed matches"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "knowledge_graph": false,
+        "memory_cache": true
+      },
+      "actions_recommended": [
+        "Add to observables",
+        "Monitor for changes",
+        "Check periodically"
+      ],
+      "correlation_score": 0.4,
+      "report_id": "ENHANCED-1768185198-2703",
+      "feed_data": {}
+    },
+    {
+      "ioc": "evil-traffic.com",
+      "timestamp": "2026-01-12T03:33:18.891395",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "low",
+        "confidence": 0.3,
+        "summary": "No feed matches"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "knowledge_graph": true,
+        "memory_cache": true
+      },
+      "actions_recommended": [
+        "Add to observables",
+        "Monitor for changes",
+        "Check periodically"
+      ],
+      "correlation_score": 0.4,
+      "report_id": "ENHANCED-1768185198-5567",
+      "feed_data": {}
+    },
+    {
+      "ioc": "https://malicious.site/payload",
+      "timestamp": "2026-01-12T03:33:18.897308",
+      "processing_time": 0.01,
+      "threat_assessment": {
+        "level": "low",
+        "confidence": 0.3,
+        "summary": "No feed matches"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "knowledge_graph": false,
+        "memory_cache": true
+      },
+      "actions_recommended": [
+        "Add to observables",
+        "Monitor for changes",
+        "Check periodically"
+      ],
+      "correlation_score": 0.4,
+      "report_id": "ENHANCED-1768185198-8619",
+      "feed_data": {}
+    },
+    {
+      "ioc": "8.8.8.8",
+      "timestamp": "2026-01-12T03:33:18.900377",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "low",
+        "confidence": 0.3,
+        "summary": "No feed matches"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "knowledge_graph": false,
+        "memory_cache": true
+      },
+      "actions_recommended": [
+        "Add to observables",
+        "Monitor for changes",
+        "Check periodically"
+      ],
+      "correlation_score": 0.4,
+      "report_id": "ENHANCED-1768185198-7048",
+      "feed_data": {}
+    },
+    {
+      "ioc": "159.65.219.189",
+      "timestamp": "2026-01-12T03:33:18.904017",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "low",
+        "confidence": 0.3,
+        "summary": "No feed matches"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "knowledge_graph": false,
+        "memory_cache": true
+      },
+      "actions_recommended": [
+        "Add to observables",
+        "Monitor for changes",
+        "Check periodically"
+      ],
+      "correlation_score": 0.4,
+      "report_id": "ENHANCED-1768185198-3471",
+      "feed_data": {}
+    }
+  ]
+}

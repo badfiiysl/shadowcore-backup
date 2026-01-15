@@ -1,0 +1,16 @@
+nohup: ignoring input
+INFO:     Started server process [1448101]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+
+    🚀 Starting ShadowCore REST API
+    ├── Host: 0.0.0.0
+    ├── Port: 8000
+    ├── Workers: 1
+    ├── Reload: False
+    ├── Log Level: info
+    └── API Docs: http://0.0.0.0:8000/docs
+    
+INFO:     127.0.0.1:46588 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46596 - "GET / HTTP/1.1" 200 OK

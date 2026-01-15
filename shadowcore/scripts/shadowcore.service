@@ -1,0 +1,16 @@
+[Unit]
+Description=ShadowCore Security Platform
+After=network.target postgresql.service redis.service neo4j.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/opt/shadowcore/start.sh
+ExecStop=/opt/shadowcore/stop.sh
+WorkingDirectory=/opt/shadowcore
+User=root
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

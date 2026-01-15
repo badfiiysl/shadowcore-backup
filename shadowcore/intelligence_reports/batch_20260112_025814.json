@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-01-12T02:58:14.684382",
+  "total_iocs": 4,
+  "successful": 4,
+  "reports": [
+    {
+      "ioc": "23.95.44.80",
+      "timestamp": "2026-01-12T02:58:14.619387",
+      "threat_assessment": {
+        "level": "medium",
+        "confidence": 0.75,
+        "summary": "Analysis complete via 2/6 pipeline steps"
+      },
+      "actions_recommended": [
+        "Monitor",
+        "Investigate further"
+      ],
+      "correlation_score": 0.7,
+      "report_id": "REPORT-1768183094-6998",
+      "pipeline_summary": "2/6 steps successful"
+    },
+    {
+      "ioc": "evil-traffic.com",
+      "timestamp": "2026-01-12T02:58:14.637735",
+      "threat_assessment": {
+        "level": "medium",
+        "confidence": 0.75,
+        "summary": "Analysis complete via 2/6 pipeline steps"
+      },
+      "actions_recommended": [
+        "Monitor",
+        "Investigate further"
+      ],
+      "correlation_score": 0.7,
+      "report_id": "REPORT-1768183094-0006",
+      "pipeline_summary": "2/6 steps successful"
+    },
+    {
+      "ioc": "a1b2c3d4e5f6789012345678901234567",
+      "timestamp": "2026-01-12T02:58:14.662371",
+      "threat_assessment": {
+        "level": "medium",
+        "confidence": 0.75,
+        "summary": "Analysis complete via 2/6 pipeline steps"
+      },
+      "actions_recommended": [
+        "Monitor",
+        "Investigate further"
+      ],
+      "correlation_score": 0.7,
+      "report_id": "REPORT-1768183094-1787",
+      "pipeline_summary": "2/6 steps successful"
+    },
+    {
+      "ioc": "https://malicious.site/payload",
+      "timestamp": "2026-01-12T02:58:14.684212",
+      "threat_assessment": {
+        "level": "medium",
+        "confidence": 0.75,
+        "summary": "Analysis complete via 2/6 pipeline steps"
+      },
+      "actions_recommended": [
+        "Monitor",
+        "Investigate further"
+      ],
+      "correlation_score": 0.7,
+      "report_id": "REPORT-1768183094-8328",
+      "pipeline_summary": "2/6 steps successful"
+    }
+  ]
+}

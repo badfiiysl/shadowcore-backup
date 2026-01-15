@@ -1,0 +1,23 @@
+{
+  "ioc": "159.65.219.189",
+  "timestamp": "2026-01-12T03:32:29.101018",
+  "processing_time": 0.0,
+  "threat_assessment": {
+    "level": "low",
+    "confidence": 0.3,
+    "summary": "No feed matches"
+  },
+  "intelligence_sources": {
+    "osint_feeds": false,
+    "knowledge_graph": false,
+    "memory_cache": false
+  },
+  "actions_recommended": [
+    "Add to observables",
+    "Monitor for changes",
+    "Check periodically"
+  ],
+  "correlation_score": 0.4,
+  "report_id": "ENHANCED-1768185149-0696",
+  "feed_data": {}
+}

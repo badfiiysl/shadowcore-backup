@@ -1,0 +1,23 @@
+{
+  "ioc": "google.com",
+  "timestamp": "2026-01-12T12:01:28.634827",
+  "processing_time": 0.0,
+  "threat_assessment": {
+    "level": "low",
+    "confidence": 0.3,
+    "summary": "Unknown IOC"
+  },
+  "intelligence_sources": {
+    "osint_feeds": false,
+    "heuristic_analysis": false,
+    "knowledge_graph": false,
+    "memory_cache": false
+  },
+  "actions_recommended": [
+    "Add to observables",
+    "Monitor periodically"
+  ],
+  "correlation_score": 0.4,
+  "report_id": "CLEAN-1768215688-6552",
+  "threat_data": {}
+}

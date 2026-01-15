@@ -1,0 +1,2 @@
+Jan 09 09:44:11 Ubuntu-2204-jammy-amd64-base systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnode_exporter.service: Main process exited, code=killed, status=9/KILL[0m
+Jan 09 09:44:11 Ubuntu-2204-jammy-amd64-base systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnode_exporter.service: Failed with result 'signal'.[0m
