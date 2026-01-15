@@ -1,0 +1,23 @@
+{
+  "ioc": "evil-traffic.com",
+  "timestamp": "2026-01-12T03:33:29.697695",
+  "processing_time": 0.0,
+  "threat_assessment": {
+    "level": "low",
+    "confidence": 0.3,
+    "summary": "No feed matches"
+  },
+  "intelligence_sources": {
+    "osint_feeds": false,
+    "knowledge_graph": true,
+    "memory_cache": true
+  },
+  "actions_recommended": [
+    "Add to observables",
+    "Monitor for changes",
+    "Check periodically"
+  ],
+  "correlation_score": 0.4,
+  "report_id": "ENHANCED-1768185209-3915",
+  "feed_data": {}
+}

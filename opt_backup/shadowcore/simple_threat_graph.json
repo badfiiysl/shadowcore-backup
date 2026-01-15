@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "type": "ThreatActor",
+      "id": "apt29",
+      "properties": {
+        "name": "APT29 (Cozy Bear)",
+        "country": "Russia",
+        "targets": "Government,Think Tanks,Healthcare",
+        "sophistication": "Advanced"
+      }
+    },
+    {
+      "type": "ThreatActor",
+      "id": "lazarus",
+      "properties": {
+        "name": "Lazarus Group",
+        "country": "North Korea",
+        "targets": "Financial,Cryptocurrency",
+        "sophistication": "Advanced"
+      }
+    },
+    {
+      "type": "Malware",
+      "id": "cobalt_strike",
+      "properties": {
+        "name": "Cobalt Strike",
+        "type": "C2 Framework",
+        "description": "Commercial penetration testing tool abused by threat actors"
+      }
+    },
+    {
+      "type": "Malware",
+      "id": "emotet",
+      "properties": {
+        "name": "Emotet",
+        "type": "Banking Trojan",
+        "description": "Modular malware often used as a loader for other malware"
+      }
+    },
+    {
+      "type": "IOC",
+      "id": "ioc_23954480",
+      "properties": {
+        "type": "ip",
+        "value": "23.95.44.80",
+        "confidence": 0.9,
+        "description": "Known Cobalt Strike C2 server"
+      }
+    },
+    {
+      "type": "IOC",
+      "id": "ioc_evil_traffic",
+      "properties": {
+        "type": "domain",
+        "value": "evil-traffic.com",
+        "confidence": 0.85,
+        "description": "Emotet C2 domain"
+      }
+    },
+    {
+      "type": "Campaign",
+      "id": "solarwinds",
+      "properties": {
+        "name": "SolarWinds Compromise",
+        "start_date": "2020-03-01",
+        "impact": "Critical",
+        "description": "Supply chain attack via SolarWinds Orion"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "apt29",
+      "to": "solarwinds",
+      "type": "ATTRIBUTED_TO",
+      "properties": {
+        "confidence": 0.95,
+        "sources": "CISA,FBI"
+      }
+    },
+    {
+      "from": "cobalt_strike",
+      "to": "ioc_23954480",
+      "type": "USES",
+      "properties": {
+        "confidence": 0.9,
+        "first_seen": "2023-01-01"
+      }
+    },
+    {
+      "from": "emotet",
+      "to": "ioc_evil_traffic",
+      "type": "USES",
+      "properties": {
+        "confidence": 0.85,
+        "first_seen": "2023-02-01"
+      }
+    },
+    {
+      "from": "apt29",
+      "to": "cobalt_strike",
+      "type": "USES",
+      "properties": {
+        "confidence": 0.8,
+        "evidence": "Multiple reports"
+      }
+    }
+  ]
+}

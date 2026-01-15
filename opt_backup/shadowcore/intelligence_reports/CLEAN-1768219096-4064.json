@@ -1,0 +1,29 @@
+{
+  "ioc": "malware-distribution.net",
+  "timestamp": "2026-01-12T12:58:16.894106",
+  "processing_time": 0.0,
+  "threat_assessment": {
+    "level": "medium",
+    "confidence": 0.6,
+    "summary": "Contains malicious keywords"
+  },
+  "intelligence_sources": {
+    "osint_feeds": false,
+    "heuristic_analysis": true,
+    "knowledge_graph": false,
+    "memory_cache": true
+  },
+  "actions_recommended": [
+    "Monitor closely",
+    "Add to watchlist",
+    "Investigate"
+  ],
+  "correlation_score": 0.9,
+  "report_id": "CLEAN-1768219096-4064",
+  "threat_data": {
+    "type": "suspicious",
+    "source": "heuristic",
+    "threat_level": "medium",
+    "reason": "Contains malicious keywords"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "timestamp": "2026-01-12T21:58:35.747952",
+  "system": "ShadowCore Enterprise UI Validation",
+  "tests": [
+    {
+      "name": "File: package.json",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "File: README.md",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "File: Dockerfile",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "File: docker-compose.yml",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "File: src/",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "File: public/",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "File: dist/",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "React Framework",
+      "status": "PASS",
+      "details": "Using React"
+    },
+    {
+      "name": "TypeScript Support",
+      "status": "PASS",
+      "details": "TypeScript enabled"
+    },
+    {
+      "name": "Build Script",
+      "status": "PASS",
+      "details": "Build script available"
+    },
+    {
+      "name": "Start Script",
+      "status": "FAIL",
+      "details": "No start script"
+    },
+    {
+      "name": "Security Libraries",
+      "status": "FAIL",
+      "details": "Limited security libs"
+    },
+    {
+      "name": "Dockerfile",
+      "status": "PASS",
+      "details": "Dockerfile present"
+    },
+    {
+      "name": "Docker Compose",
+      "status": "PASS",
+      "details": "docker-compose.yml present"
+    },
+    {
+      "name": "Multi-stage Build",
+      "status": "PASS",
+      "details": "Multi-stage build used"
+    },
+    {
+      "name": "Health Check",
+      "status": "FAIL",
+      "details": "No health check"
+    },
+    {
+      "name": "Non-root User",
+      "status": "PASS",
+      "details": "Non-root user configured"
+    },
+    {
+      "name": "Threat API (:8003)",
+      "status": "PASS",
+      "details": "Listening"
+    },
+    {
+      "name": "Dashboard API (:8020)",
+      "status": "PASS",
+      "details": "Listening"
+    },
+    {
+      "name": "REST API (:8000)",
+      "status": "PASS",
+      "details": "Listening"
+    },
+    {
+      "name": "Main API (:8004)",
+      "status": "PASS",
+      "details": "Listening"
+    },
+    {
+      "name": "Grafana (:3000)",
+      "status": "PASS",
+      "details": "Listening"
+    },
+    {
+      "name": "Neo4j Browser (:7474)",
+      "status": "PASS",
+      "details": "Listening"
+    },
+    {
+      "name": "Threat API Health Accessibility",
+      "status": "PASS",
+      "details": "HTTP 200"
+    },
+    {
+      "name": "Dashboard Accessibility",
+      "status": "PASS",
+      "details": "HTTP 200"
+    },
+    {
+      "name": "REST API Accessibility",
+      "status": "PASS",
+      "details": "HTTP 200"
+    },
+    {
+      "name": "Grafana Accessibility",
+      "status": "PASS",
+      "details": "HTTP 200"
+    },
+    {
+      "name": "Neo4j Browser Accessibility",
+      "status": "PASS",
+      "details": "HTTP 200"
+    },
+    {
+      "name": "IOC Analysis: 162.243.103.246",
+      "status": "PASS",
+      "details": "Success - Threat: high"
+    },
+    {
+      "name": "IOC Analysis: 8.8.8.8",
+      "status": "PASS",
+      "details": "Success - Threat: low"
+    },
+    {
+      "name": "IOC Analysis: evil-traffic.com",
+      "status": "PASS",
+      "details": "Success - Threat: medium"
+    },
+    {
+      "name": "Build Output (dist/)",
+      "status": "PASS",
+      "details": "Build directory exists"
+    },
+    {
+      "name": "TypeScript Config",
+      "status": "PASS",
+      "details": "TypeScript configured"
+    },
+    {
+      "name": "Documentation: README.md",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "Documentation: API.md",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "Documentation: SECURITY.md",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "Documentation: CHANGELOG.md",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "Documentation: CONTRIBUTING.md",
+      "status": "PASS",
+      "details": "Exists"
+    },
+    {
+      "name": "Node Modules",
+      "status": "PASS",
+      "details": "Installed"
+    },
+    {
+      "name": "NPM Available",
+      "status": "PASS",
+      "details": "NPM v11.7.0"
+    },
+    {
+      "name": "Build Process",
+      "status": "PASS",
+      "details": "Build failed"
+    }
+  ],
+  "score": 92.6829268292683
+}

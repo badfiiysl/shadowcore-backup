@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-01-12T12:52:04.685049",
+  "services": {
+    "ShadowSearch": {
+      "port": "OPEN",
+      "http": "ACCESSIBLE"
+    },
+    "Dashboard": {
+      "port": "OPEN",
+      "http": "ACCESSIBLE"
+    },
+    "Grafana": {
+      "port": "OPEN",
+      "http": "ACCESSIBLE"
+    },
+    "Neo4j Browser": {
+      "port": "OPEN",
+      "http": "ACCESSIBLE"
+    }
+  },
+  "components": {
+    "redis": "PASS",
+    "neo4j": "PASS",
+    "threat_cache": "PASS"
+  },
+  "overall": "PASS"
+}

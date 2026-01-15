@@ -1,0 +1,17 @@
+[0;1;31m×[0m node_exporter.service - Node Exporter
+     Loaded: loaded (/etc/systemd/system/node_exporter.service; enabled; vendor preset: enabled)
+     Active: [0;1;31mfailed[0m (Result: signal) since Fri 2026-01-09 09:44:11 CET; 11min ago
+    Process: 720801 ExecStart=/usr/local/bin/node_exporter [0;1;31m(code=killed, signal=KILL)[0m
+   Main PID: 720801 (code=killed, signal=KILL)
+        CPU: 61ms
+
+Jan 02 22:54:46 Ubuntu-2204-jammy-amd64-base node_exporter[720801]: ts=2026-01-02T21:54:46.215Z caller=node_exporter.go:117 level=info collector=timex
+Jan 02 22:54:46 Ubuntu-2204-jammy-amd64-base node_exporter[720801]: ts=2026-01-02T21:54:46.215Z caller=node_exporter.go:117 level=info collector=udp_queues
+Jan 02 22:54:46 Ubuntu-2204-jammy-amd64-base node_exporter[720801]: ts=2026-01-02T21:54:46.215Z caller=node_exporter.go:117 level=info collector=uname
+Jan 02 22:54:46 Ubuntu-2204-jammy-amd64-base node_exporter[720801]: ts=2026-01-02T21:54:46.215Z caller=node_exporter.go:117 level=info collector=vmstat
+Jan 02 22:54:46 Ubuntu-2204-jammy-amd64-base node_exporter[720801]: ts=2026-01-02T21:54:46.215Z caller=node_exporter.go:117 level=info collector=xfs
+Jan 02 22:54:46 Ubuntu-2204-jammy-amd64-base node_exporter[720801]: ts=2026-01-02T21:54:46.215Z caller=node_exporter.go:117 level=info collector=zfs
+Jan 02 22:54:46 Ubuntu-2204-jammy-amd64-base node_exporter[720801]: ts=2026-01-02T21:54:46.215Z caller=tls_config.go:274 level=info msg="Listening on" address=[::]:9100
+Jan 02 22:54:46 Ubuntu-2204-jammy-amd64-base node_exporter[720801]: ts=2026-01-02T21:54:46.215Z caller=tls_config.go:277 level=info msg="TLS is disabled." http2=false address=[::]:9100
+Jan 09 09:44:11 Ubuntu-2204-jammy-amd64-base systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnode_exporter.service: Main process exited, code=killed, status=9/KILL[0m
+Jan 09 09:44:11 Ubuntu-2204-jammy-amd64-base systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnode_exporter.service: Failed with result 'signal'.[0m

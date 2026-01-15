@@ -1,0 +1,156 @@
+{
+  "timestamp": "2026-01-12T03:39:42.255636",
+  "summary": {
+    "total_iocs": 5,
+    "high_threats": 5,
+    "medium_threats": 0,
+    "low_threats": 0
+  },
+  "reports": [
+    {
+      "ioc": "\"first_seen_utc\",\"dst_ip\",\"dst_port\",\"c2_status\",\"last_online\",\"malware\"",
+      "timestamp": "2026-01-12T03:39:42.118826",
+      "processing_time": 0.01,
+      "threat_assessment": {
+        "level": "high",
+        "confidence": 0.95,
+        "summary": "Matched in OSINT feeds"
+      },
+      "intelligence_sources": {
+        "osint_feeds": true,
+        "knowledge_graph": false,
+        "memory_cache": false
+      },
+      "actions_recommended": [
+        "BLOCK immediately",
+        "Investigate endpoints",
+        "Alert SOC",
+        "Update firewall"
+      ],
+      "correlation_score": 0.9,
+      "report_id": "FIXED-1768185582-9365",
+      "feed_data": {
+        "threat_level": "high",
+        "source": "feodotracker",
+        "type": "ip",
+        "timestamp": "2026-01-12T03:33:29.368610"
+      }
+    },
+    {
+      "ioc": "\"2025-09-13 14:31:12\",\"137.184.9.29\",\"443\",\"offline\",\"2026-01-04\",\"QakBot\"",
+      "timestamp": "2026-01-12T03:39:42.188737",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "high",
+        "confidence": 0.95,
+        "summary": "Matched in OSINT feeds"
+      },
+      "intelligence_sources": {
+        "osint_feeds": true,
+        "knowledge_graph": false,
+        "memory_cache": false
+      },
+      "actions_recommended": [
+        "BLOCK immediately",
+        "Investigate endpoints",
+        "Alert SOC",
+        "Update firewall"
+      ],
+      "correlation_score": 0.9,
+      "report_id": "FIXED-1768185582-2899",
+      "feed_data": {
+        "threat_level": "high",
+        "source": "feodotracker",
+        "type": "ip",
+        "timestamp": "2026-01-12T03:33:29.368615"
+      }
+    },
+    {
+      "ioc": "8.8.8.8",
+      "timestamp": "2026-01-12T03:39:42.199585",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "high",
+        "confidence": 0.95,
+        "summary": "Matched in OSINT feeds"
+      },
+      "intelligence_sources": {
+        "osint_feeds": true,
+        "knowledge_graph": false,
+        "memory_cache": true
+      },
+      "actions_recommended": [
+        "BLOCK immediately",
+        "Investigate endpoints",
+        "Alert SOC",
+        "Update firewall"
+      ],
+      "correlation_score": 0.9,
+      "report_id": "FIXED-1768185582-5297",
+      "feed_data": {
+        "threat_level": "high",
+        "source": "feodotracker",
+        "type": "ip",
+        "timestamp": "2026-01-12T03:33:29.368610"
+      }
+    },
+    {
+      "ioc": "evil-traffic.com",
+      "timestamp": "2026-01-12T03:39:42.242874",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "high",
+        "confidence": 0.95,
+        "summary": "Matched in OSINT feeds"
+      },
+      "intelligence_sources": {
+        "osint_feeds": true,
+        "knowledge_graph": true,
+        "memory_cache": true
+      },
+      "actions_recommended": [
+        "BLOCK immediately",
+        "Investigate endpoints",
+        "Alert SOC",
+        "Update firewall"
+      ],
+      "correlation_score": 0.9,
+      "report_id": "FIXED-1768185582-7482",
+      "feed_data": {
+        "threat_level": "high",
+        "source": "feodotracker",
+        "type": "ip",
+        "timestamp": "2026-01-12T03:33:29.368610"
+      }
+    },
+    {
+      "ioc": "https://legit-site.com",
+      "timestamp": "2026-01-12T03:39:42.248137",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "high",
+        "confidence": 0.95,
+        "summary": "Matched in OSINT feeds"
+      },
+      "intelligence_sources": {
+        "osint_feeds": true,
+        "knowledge_graph": false,
+        "memory_cache": false
+      },
+      "actions_recommended": [
+        "BLOCK immediately",
+        "Investigate endpoints",
+        "Alert SOC",
+        "Update firewall"
+      ],
+      "correlation_score": 0.9,
+      "report_id": "FIXED-1768185582-1602",
+      "feed_data": {
+        "threat_level": "high",
+        "source": "feodotracker",
+        "type": "ip",
+        "timestamp": "2026-01-12T03:33:29.368610"
+      }
+    }
+  ]
+}

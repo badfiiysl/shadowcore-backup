@@ -1,0 +1,29 @@
+{
+  "ioc": "1.82.135.154",
+  "timestamp": "2026-01-12T03:39:52.762117",
+  "processing_time": 0.01,
+  "threat_assessment": {
+    "level": "high",
+    "confidence": 0.95,
+    "summary": "Matched in OSINT feeds"
+  },
+  "intelligence_sources": {
+    "osint_feeds": true,
+    "knowledge_graph": false,
+    "memory_cache": false
+  },
+  "actions_recommended": [
+    "BLOCK immediately",
+    "Investigate endpoints",
+    "Alert SOC",
+    "Update firewall"
+  ],
+  "correlation_score": 0.9,
+  "report_id": "FIXED-1768185592-9727",
+  "feed_data": {
+    "threat_level": "high",
+    "source": "blocklist_de",
+    "type": "ip",
+    "timestamp": "2026-01-12T03:39:52.001159"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "timestamp": "2026-01-12T12:01:28.638563",
+  "summary": {
+    "total_iocs": 8,
+    "threat_distribution": {
+      "high": 2,
+      "medium": 2,
+      "low": 4
+    },
+    "detection_accuracy": "100.0%"
+  },
+  "detailed_results": [
+    {
+      "ioc": "162.243.103.246",
+      "timestamp": "2026-01-12T12:01:28.507318",
+      "processing_time": 0.01,
+      "threat_assessment": {
+        "level": "high",
+        "confidence": 0.95,
+        "summary": "Known Emotet infrastructure"
+      },
+      "intelligence_sources": {
+        "osint_feeds": true,
+        "heuristic_analysis": false,
+        "knowledge_graph": false,
+        "memory_cache": true
+      },
+      "actions_recommended": [
+        "Block immediately",
+        "Investigate endpoints",
+        "Alert SOC",
+        "Check for Emotet indicators"
+      ],
+      "correlation_score": 0.9,
+      "report_id": "CLEAN-1768215688-5025",
+      "threat_data": {
+        "type": "ip",
+        "source": "feodotracker",
+        "threat_level": "high",
+        "timestamp": "2026-01-12T11:52:02.341883",
+        "malware": "Emotet",
+        "port": "8080"
+      }
+    },
+    {
+      "ioc": "137.184.9.29",
+      "timestamp": "2026-01-12T12:01:28.583711",
+      "processing_time": 0.03,
+      "threat_assessment": {
+        "level": "high",
+        "confidence": 0.95,
+        "summary": "Known QakBot infrastructure"
+      },
+      "intelligence_sources": {
+        "osint_feeds": true,
+        "heuristic_analysis": false,
+        "knowledge_graph": false,
+        "memory_cache": false
+      },
+      "actions_recommended": [
+        "Block immediately",
+        "Investigate endpoints",
+        "Alert SOC",
+        "Check for QakBot indicators"
+      ],
+      "correlation_score": 0.9,
+      "report_id": "CLEAN-1768215688-6483",
+      "threat_data": {
+        "type": "ip",
+        "source": "feodotracker",
+        "threat_level": "high",
+        "timestamp": "2026-01-12T11:52:02.341897",
+        "malware": "QakBot",
+        "port": "443"
+      }
+    },
+    {
+      "ioc": "8.8.8.8",
+      "timestamp": "2026-01-12T12:01:28.620599",
+      "processing_time": 0.03,
+      "threat_assessment": {
+        "level": "low",
+        "confidence": 0.1,
+        "summary": "Unknown public IP address"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "heuristic_analysis": false,
+        "knowledge_graph": true,
+        "memory_cache": false
+      },
+      "actions_recommended": [
+        "Add to observables",
+        "Monitor periodically"
+      ],
+      "correlation_score": 0.4,
+      "report_id": "CLEAN-1768215688-4243",
+      "threat_data": {}
+    },
+    {
+      "ioc": "1.1.1.1",
+      "timestamp": "2026-01-12T12:01:28.623647",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "low",
+        "confidence": 0.1,
+        "summary": "Unknown public IP address"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "heuristic_analysis": false,
+        "knowledge_graph": false,
+        "memory_cache": false
+      },
+      "actions_recommended": [
+        "Add to observables",
+        "Monitor periodically"
+      ],
+      "correlation_score": 0.4,
+      "report_id": "CLEAN-1768215688-5881",
+      "threat_data": {}
+    },
+    {
+      "ioc": "evil-traffic.com",
+      "timestamp": "2026-01-12T12:01:28.627066",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "medium",
+        "confidence": 0.6,
+        "summary": "Contains malicious keywords"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "heuristic_analysis": true,
+        "knowledge_graph": true,
+        "memory_cache": false
+      },
+      "actions_recommended": [
+        "Monitor closely",
+        "Add to watchlist",
+        "Investigate"
+      ],
+      "correlation_score": 0.9,
+      "report_id": "CLEAN-1768215688-2803",
+      "threat_data": {
+        "type": "suspicious",
+        "source": "heuristic",
+        "threat_level": "medium",
+        "reason": "Contains malicious keywords"
+      }
+    },
+    {
+      "ioc": "malware-distribution.net",
+      "timestamp": "2026-01-12T12:01:28.631113",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "medium",
+        "confidence": 0.6,
+        "summary": "Contains malicious keywords"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "heuristic_analysis": true,
+        "knowledge_graph": false,
+        "memory_cache": false
+      },
+      "actions_recommended": [
+        "Monitor closely",
+        "Add to watchlist",
+        "Investigate"
+      ],
+      "correlation_score": 0.9,
+      "report_id": "CLEAN-1768215688-8433",
+      "threat_data": {
+        "type": "suspicious",
+        "source": "heuristic",
+        "threat_level": "medium",
+        "reason": "Contains malicious keywords"
+      }
+    },
+    {
+      "ioc": "google.com",
+      "timestamp": "2026-01-12T12:01:28.634827",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "low",
+        "confidence": 0.3,
+        "summary": "Unknown IOC"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "heuristic_analysis": false,
+        "knowledge_graph": false,
+        "memory_cache": false
+      },
+      "actions_recommended": [
+        "Add to observables",
+        "Monitor periodically"
+      ],
+      "correlation_score": 0.4,
+      "report_id": "CLEAN-1768215688-6552",
+      "threat_data": {}
+    },
+    {
+      "ioc": "github.com",
+      "timestamp": "2026-01-12T12:01:28.638099",
+      "processing_time": 0.0,
+      "threat_assessment": {
+        "level": "low",
+        "confidence": 0.3,
+        "summary": "Unknown IOC"
+      },
+      "intelligence_sources": {
+        "osint_feeds": false,
+        "heuristic_analysis": false,
+        "knowledge_graph": false,
+        "memory_cache": false
+      },
+      "actions_recommended": [
+        "Add to observables",
+        "Monitor periodically"
+      ],
+      "correlation_score": 0.4,
+      "report_id": "CLEAN-1768215688-9612",
+      "threat_data": {}
+    }
+  ]
+}

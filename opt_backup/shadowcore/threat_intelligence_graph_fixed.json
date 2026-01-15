@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "type": "ThreatActor",
+      "id": "apt29_(cozy_bear)",
+      "properties": {
+        "name": "APT29 (Cozy Bear)",
+        "country": "Russia",
+        "targets": "[\"Government\", \"Think Tanks\", \"Healthcare\"]",
+        "ttps": "[\"Supply Chain\", \"Phishing\", \"Credential Theft\"]",
+        "campaigns": "[\"SolarWinds\", \"COVID-19 Research\"]"
+      }
+    },
+    {
+      "type": "ThreatActor",
+      "id": "lazarus_group",
+      "properties": {
+        "name": "Lazarus Group",
+        "country": "North Korea",
+        "targets": "[\"Financial\", \"Cryptocurrency\", \"Entertainment\"]",
+        "ttps": "[\"SWIFT Attacks\", \"Ransomware\", \"Malware Distribution\"]",
+        "campaigns": "[\"WannaCry\", \"Sony Pictures\", \"Bangladesh Bank\"]"
+      }
+    },
+    {
+      "type": "Malware",
+      "id": "cobalt_strike",
+      "properties": {
+        "name": "Cobalt Strike",
+        "type": "C2 Framework",
+        "iocs": "[{\"type\": \"ip\", \"value\": \"23.95.44.80\", \"confidence\": 0.9}, {\"type\": \"ip\", \"value\": \"159.65.219.189\", \"confidence\": 0.85}, {\"type\": \"domain\", \"value\": \"cdn77[.]org\", \"confidence\": 0.8}]"
+      }
+    },
+    {
+      "type": "IOC",
+      "id": "ioc_568231",
+      "properties": {
+        "type": "ip",
+        "value": "23.95.44.80",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "IOC",
+      "id": "ioc_603892",
+      "properties": {
+        "type": "ip",
+        "value": "159.65.219.189",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "IOC",
+      "id": "ioc_606225",
+      "properties": {
+        "type": "domain",
+        "value": "cdn77[.]org",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Malware",
+      "id": "emotet",
+      "properties": {
+        "name": "Emotet",
+        "type": "Banking Trojan",
+        "iocs": "[{\"type\": \"domain\", \"value\": \"evil-traffic.com\", \"confidence\": 0.9}, {\"type\": \"hash\", \"value\": \"a32ddb0cac0e02d7d6c7e3d6f7c9e8d1\", \"confidence\": 0.95}]"
+      }
+    },
+    {
+      "type": "IOC",
+      "id": "ioc_43054",
+      "properties": {
+        "type": "domain",
+        "value": "evil-traffic.com",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "IOC",
+      "id": "ioc_407061",
+      "properties": {
+        "type": "hash",
+        "value": "a32ddb0cac0e02d7d6c7e3d6f7c9e8d1",
+        "confidence": 0.95
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "cobalt_strike",
+      "to": "ioc_568231",
+      "type": "USES",
+      "properties": {
+        "confidence": 0.9
+      }
+    },
+    {
+      "from": "cobalt_strike",
+      "to": "ioc_603892",
+      "type": "USES",
+      "properties": {
+        "confidence": 0.85
+      }
+    },
+    {
+      "from": "cobalt_strike",
+      "to": "ioc_606225",
+      "type": "USES",
+      "properties": {
+        "confidence": 0.8
+      }
+    },
+    {
+      "from": "emotet",
+      "to": "ioc_43054",
+      "type": "USES",
+      "properties": {
+        "confidence": 0.9
+      }
+    },
+    {
+      "from": "emotet",
+      "to": "ioc_407061",
+      "type": "USES",
+      "properties": {
+        "confidence": 0.95
+      }
+    }
+  ]
+}

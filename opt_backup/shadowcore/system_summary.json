@@ -1,0 +1,59 @@
+{
+  "system_name": "ShadowCore Threat Intelligence Platform",
+  "version": "1.0.0",
+  "status": "operational",
+  "timestamp": "2026-01-12T03:03:36.214176",
+  "architecture": {
+    "agent_manager": {
+      "services": [
+        "REST API (8000)",
+        "Threat API (8003)",
+        "Main API (8004)",
+        "Auth API (8006)"
+      ],
+      "status": "operational"
+    },
+    "worker_pool": {
+      "services": [
+        "WebSocket (8083)",
+        "Proxy (8080)",
+        "Node Workers (8002, 8081)"
+      ],
+      "status": "operational"
+    },
+    "ai_engines": {
+      "services": [
+        "shadowbrain (8001)",
+        "Ollama (11434)",
+        "Qdrant (6333)"
+      ],
+      "status": "operational"
+    },
+    "osint_engine": {
+      "services": [
+        "Threat Insight (9090)",
+        "Data Server (8005)"
+      ],
+      "status": "operational"
+    },
+    "memory_systems": {
+      "services": [
+        "Neo4j (7687)",
+        "Redis (6379)",
+        "PostgreSQL (5432)"
+      ],
+      "status": "operational"
+    }
+  },
+  "threat_intelligence": {
+    "apt_groups": 2,
+    "malware_families": 2,
+    "iocs": 5,
+    "embeddings": 4
+  },
+  "recent_activity": {
+    "analyses_completed": 4,
+    "reports_generated": 4,
+    "last_report": "REPORT-1768183094-8328"
+  }
+}

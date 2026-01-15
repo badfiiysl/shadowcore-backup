@@ -1,0 +1,29 @@
+{
+  "ioc": "\"first_seen_utc\",\"dst_ip\",\"dst_port\",\"c2_status\",\"last_online\",\"malware\"",
+  "timestamp": "2026-01-12T03:39:44.947197",
+  "processing_time": 0.01,
+  "threat_assessment": {
+    "level": "high",
+    "confidence": 0.95,
+    "summary": "Matched in OSINT feeds"
+  },
+  "intelligence_sources": {
+    "osint_feeds": true,
+    "knowledge_graph": true,
+    "memory_cache": true
+  },
+  "actions_recommended": [
+    "BLOCK immediately",
+    "Investigate endpoints",
+    "Alert SOC",
+    "Update firewall"
+  ],
+  "correlation_score": 0.9,
+  "report_id": "FIXED-1768185584-9200",
+  "feed_data": {
+    "threat_level": "high",
+    "source": "feodotracker",
+    "type": "ip",
+    "timestamp": "2026-01-12T03:33:29.368610"
+  }
+}

@@ -1,8 +1,8 @@
 #!/bin/bash
-# ShadowCore Backup Script to GitHub
+# Complete /opt Backup Script to GitHub
 
 BACKUP_ROOT="/opt/shadowcore_backup"
-SOURCE_DIR="/opt/shadowcore"
+SOURCE_DIR="/opt"  # Changed from /opt/shadowcore to /opt
 LOG_FILE="$BACKUP_ROOT/backup.log"
 
 # Log function
@@ -12,22 +12,37 @@ log() {
 
 cd "$BACKUP_ROOT" || exit 1
 
-log "Starting ShadowCore backup..."
+log "Starting complete /opt backup..."
 
-# Copy essential directories
+# Remove old backup copy
+rm -rf "$BACKUP_ROOT/opt_backup"
+
+# Copy entire /opt directory with exclusions
 rsync -av --delete \
+    --exclude='shadowcore_backup' \
     --exclude='*.pyc' \
     --exclude='__pycache__' \
     --exclude='.git' \
     --exclude='node_modules' \
-    "$SOURCE_DIR/" "$BACKUP_ROOT/shadowcore/"
+    --exclude='*.log' \
+    --exclude='*.pid' \
+    --exclude='*.lock' \
+    --exclude='/opt/containerd' \
+    --exclude='/opt/shadowcore/feeds/' \
+    "$SOURCE_DIR/" "$BACKUP_ROOT/opt_backup/"
+
+# Check if there are changes
+if git diff --quiet && git diff --staged --quiet; then
+    log "No changes detected. Skipping commit."
+    exit 0
+fi
 
 # Add, commit, and push to GitHub
 git add -A
-git commit -m "Automated backup $(date '+%Y-%m-%d %H:%M:%S')"
+git commit -m "Complete /opt backup $(date '+%Y-%m-%d %H:%M:%S')"
 
 # Push to GitHub
-if git push -u origin main; then
+if git push origin main; then
     log "Backup completed and pushed to GitHub successfully."
 else
     log "ERROR: Failed to push backup to GitHub."

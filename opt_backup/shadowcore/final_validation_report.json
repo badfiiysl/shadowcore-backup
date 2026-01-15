@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-01-12T19:39:40.876625",
+  "system": "ShadowCore Threat Intelligence Platform",
+  "version": "1.0.0",
+  "tests": [
+    {
+      "name": "Threat Intelligence Cache",
+      "status": "PASS",
+      "details": "49,088 known threat indicators"
+    },
+    {
+      "name": "Redis Cache Layer",
+      "status": "PASS",
+      "details": "Connected with 18 cached entries"
+    },
+    {
+      "name": "Neo4j Knowledge Graph",
+      "status": "PASS",
+      "details": "30 threat entities in knowledge graph"
+    },
+    {
+      "name": "Threat Detection Accuracy",
+      "status": "PASS",
+      "details": "100.0% accuracy (4/4 correct)"
+    },
+    {
+      "name": "Dashboard Service",
+      "status": "PASS",
+      "details": "Accessible (HTTP 200)"
+    },
+    {
+      "name": "Threat API Service",
+      "status": "PASS",
+      "details": "Accessible (HTTP 200)"
+    },
+    {
+      "name": "Grafana Service",
+      "status": "PASS",
+      "details": "Accessible (HTTP 200)"
+    },
+    {
+      "name": "Neo4j Browser Service",
+      "status": "PASS",
+      "details": "Accessible (HTTP 200)"
+    },
+    {
+      "name": "ShadowSearch Service",
+      "status": "PASS",
+      "details": "Accessible (HTTP 404)"
+    },
+    {
+      "name": "System Performance",
+      "status": "PASS",
+      "details": "Load: 2.34, Memory: 40.6% used, Disk: 32.4% used, Uptime: up 1 week, 4 days, 1 hour, 8 minutes"
+    }
+  ],
+  "overall_score": 100.0
+}
